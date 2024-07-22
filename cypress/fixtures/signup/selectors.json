@@ -1,0 +1,20 @@
+{
+  "signupButton": ".Header2_header__nav__btn__wRKfY div:nth-child(2) button",
+  "fullnameField": "#fullname",
+  "bizNameField": "#businessname",
+  "bizEmailField": "#businessemail",
+  "bizPhoneNUmberField": "#businessphonenumber",
+  "bizRegField": "#businessRegNum",
+  "sNextButton":"",
+  "websiteField": "",
+  "igNameField": "",
+  "xNameField": "",
+  "infoSource": "div[placeholder]",
+  "infoOption": ".MimaDropdown_select__options__xLi7K:nth-child(6)",
+  "nextButton": "",
+  "passwordField": "",
+  "signUpButton": "button[type='submit']"
+
+
+
+}
