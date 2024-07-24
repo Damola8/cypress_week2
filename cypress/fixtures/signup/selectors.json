@@ -3,16 +3,16 @@
   "fullnameField": "#fullname",
   "bizNameField": "#businessname",
   "bizEmailField": "#businessemail",
-  "bizPhoneNUmberField": "#businessphonenumber",
+  "bizPhoneNumberField": "#businessphonenumber",
   "bizRegField": "#businessRegNum",
-  "sNextButton":"",
-  "websiteField": "",
-  "igNameField": "",
-  "xNameField": "",
+  "sNextButton":"button[type='button']",
+  "websiteField": "#website",
+  "igNameField": "#instagramHandle",
+  "xNameField": "#twitterHandle",
   "infoSource": "div[placeholder]",
   "infoOption": ".MimaDropdown_select__options__xLi7K:nth-child(6)",
   "nextButton": "",
-  "passwordField": "",
+  "passwordField": "#password",
   "signUpButton": "button[type='submit']"
 
 

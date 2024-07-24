@@ -22,4 +22,13 @@
 //
 //
 // -- This will overwrite an existing command --
-// Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+// Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })\
+
+
+Cypress.Commands.add('clickElement', (element)=>{
+    cy.get(element).should('be.visible').and('exists').click()
+})
+
+Cypress.Commands.add('typeText', (field,text)=>{
+    cy.get(field).should('be.visible').type(text)
+})

@@ -15,10 +15,14 @@
 
 // Import commands.js using ES2015 syntax:
 import './commands'
+import './command/homePage'
+import './command/signup'
+
 before('',()=>{
     Cypress.on('uncaught:exception', ()=>{
         return false;
     })
+    cy.visit('/')
 })
 
 // Alternatively you can use CommonJS syntax:
